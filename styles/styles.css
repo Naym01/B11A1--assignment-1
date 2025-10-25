@@ -1,0 +1,90 @@
+
+.fira-sans{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+
+/* shared style: */
+
+
+/* header style: */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+   
+}
+header h2{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+ header button{
+    border-radius: 5px;
+    color:rgba(0, 106, 80, 1);
+    font-size: 18px;
+font-weight:500px;
+ }
+
+ header ul li{
+    list-style: none;
+ }
+ header button{
+    color: green;
+    border-color: green;
+    width: 116px;
+    height: 52px;
+    background-color: rgb(247, 243, 243);
+    cursor: pointer;
+ }
+ header button:hover{
+  background-color: aqua;
+  color:red;
+
+ }
+ 
+
+/* banner section style: */
+
+
+.banner-container{
+    width:1280px; 
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(198, 228, 214, 1);
+    margin: 0 auto;
+    padding: 80px 0px;
+    align-items: center;
+}
+/* banner section first part: */
+.banner-first-column{
+    width: 50%;
+}
+.banner-first-column h2{
+    color:rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight:500px;
+
+}
+.banner-first-column-p{
+   color: rgba(14, 14, 14, 1); 
+   font-size: 56px;
+   font-weight: bold;
+
+}
+.banner-first-column button{
+color:rgba(255, 255, 255, 1) ;
+font-size: 18px;
+font-weight:600px;
+padding: 17px 34px;
+border-radius: 5px;
+border-style: none;
+background-color: rgba(0, 106, 80, 1);
+}
+
